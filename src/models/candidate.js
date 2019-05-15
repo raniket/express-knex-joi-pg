@@ -4,22 +4,10 @@ const name = 'Candidate';
 const tableName = 'candidate';
 
 const selectableProps = [
-  'id',
-  'email',
-  'first_name',
-  'middle_name',
-  'last_name',
+  'firstName',
+  'lastName',
   'phone',
-  'assigned_to',
-  'external_id',
-  'organization_id',
-  // 'isRegistered',
-  'cf',
-  'profile_pic',
-  'status_id',
-  'icard',
-  'created_at',
-  'updated_at'
+  'email',
 ];
 
 module.exports = knex => {
